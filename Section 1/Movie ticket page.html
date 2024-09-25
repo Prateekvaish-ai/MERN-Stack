@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+
+</head>
+
+<body>
+
+    <h1>Movie Ticket Booking Form</h1>
+
+    <form>
+         
+         <!--Movie Selection-->
+         
+         <label for="Movie">Select Movie:</label>
+
+         <select name="Movie" id="Movie" required>
+
+            <option value="">--Select a Movie--</option>
+            <option value="Hum Sath Sath Hai">Hum Sath Sath Hai</option>
+            <option value="Stree 2">Stree 2</option>
+            <option value="Fighter">Fighter</option>
+
+         </select>
+
+         <br><br>
+
+         <!--Date Selection-->
+
+         <label for="date">Date:</label>
+         <input type="date" id="date" name="date" required>
+
+         <br><br>
+
+         <!--Time Selection-->
+
+         <label for="time">Time:</label>
+
+         <select name="time" id="time" required>
+
+            <option value="">--Select Time--</option>
+            <option value="12:00">12:00 PM</option>
+            <option value="15:00">03:00 PM</option>
+            <option value="18:00">06:00 PM</option>
+            <option value="21:00">09:00 PM</option>
+
+         </select>
+
+         <br><br>
+
+         <!--Number of Tickets-->
+
+         <label for="tickets">Number of Tickets:</label>
+         <input type="number" id="tickets" name="tickets" min="1" max="10" required>
+
+         <br><br>
+
+         <!--Name-->
+
+         <label for="name">Your Name:</label>
+         <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+
+         <br><br>
+
+         <!--Email-->
+
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+
+         <br><br>
+
+         <!--Phone Number-->
+
+         <label for="phone">Phone Number:</label>
+         <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone Number" required>
+
+         <br><br>
+
+         <!--Submit Button-->
+
+         <button type="submit">Book Now</button>
+    </form>
+</body>
+
+</html>
