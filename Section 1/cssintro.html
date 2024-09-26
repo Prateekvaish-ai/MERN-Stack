@@ -5,11 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="style.css">
     <style>
           p{
             font-size: 30px;
             text-decoration: underline;
             color: dodgerblue;
+          }
+
+          .myclass {
+
+            background-color: crimson;
+            color: white ;
+
+          }
+
+          #myid {
+
+            color: green;
+            text-align: center;
+            font-size: 60px;
+
+          }
+
+          h6 {
+
+             color: blueviolet;
+             font-size: 50px;
+
+          }
+
+          .heading {
+
+            color: chocolate !important;
+
+          }
+
+          #myid2{
+
+            color: blue;
+
           }
     </style>
 </head>
@@ -19,6 +54,14 @@
 
     <p>Internal CSS is used style multiple tag at once</p>
 
-    <p>Name Selectors are used to select element by their tag Name </p>
+    <p class="myclass">Name Selectors are used to select element by their tag Name </p>
+
+    <h2 class="myclass">class selector are used to select element by their class name</h2>
+
+    <h3 id="myid"> ID Selectors are used to select element by their id Name</h3>
+
+    <h6 class="heading" id="myid2" >Priority of Selectors : ID > Class > Name</h6>
+
+    <button class="btn">Submit Here</button>
 </body>
 </html>
