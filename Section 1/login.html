@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+
     <style>
 
+        * {
+
+            font-family: Roboto;
+        }
+
         .card {
-            border: 2px solid red;
+            border: 2px solid #ccc;
             width: 20%;
             border-radius: 10px;
             padding: 10px;
+            box-shadow: 5px 5px 5px 0 rgba(128, 128, 128, 0.644);
+            box-sizing: border-box;
 
         }
 
@@ -22,27 +31,70 @@
             align-items: center;
             height: 100vh;
         }
+
+        .form-title {
+
+            text-align: center;
+            font-family: Roboto;
+        }
+
+        .text-input {
+
+            display: block;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid blueviolet;
+        }
+
+        .btn {
+
+            display: block;
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .link   {
+
+            display: block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: blueviolet;
+            font-size: 15px;
+        }
+
+        .link:hover {
+
+            color: rgba(137, 43, 226, 0.559);
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     
     <div class="card">
 
-        <h3 class="forrm-title">Login Form</h3>
+        <h3 class="form-title">Login Form</h3>
 
         <form>
 
             <label>Email Address</label>
             <input type="email" class="text-input" placeholder="Enter Your Email">
 
-            <br><br>
+            
 
             <label>Password</label>
             <input type="password" class="text-input" placeholder="Enter Your Password">
                
-            <br><br>
+            <a href="#" class="link">Forget Password</a>
 
-            <button class=".btn" >Submit</button>
+            <button class="btn" >Submit</button>
 
         </form>
     </div>
