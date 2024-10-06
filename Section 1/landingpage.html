@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -17,24 +20,75 @@
 
         <article>
 
-            <section class="border-2 border-red-500 h-[60vh]">
+            <section class=" h-[60vh] ">
 
 
-                <div class="grid grid-cols-2 border-2 border-green-500 w-[80%] mx-auto h-full">
+                <div class="grid lg:grid-cols-2 w-[80%] mx-auto h-full">
 
-                    <div class="border-2 border-blue-500 my-auto">
-                        <h1 class="text-6xl font-bold">Hero Section Title</h1>
-                    <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolorum aspernatur sapiente id dicta vitae quis laborum modi fugit odit.</p>
+                    <div class=" my-auto space-y-5 order-last lg:order-first text-center lg:text-left">
+
+                        <h1 class="text-3xl lg:text-6xl font-bold">Hero Section Title</h1>
+
+                        <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolorum
+                            aspernatur sapiente id dicta vitae quis laborum modi fugit odit.</p>
+
+                        <div class="flex gap-4 justify-center lg:justify-start">
+
+                            <button
+                                class="py-1.5 px-3 rounded bg-blue-500 hover:bg-blue-700 text-white">Explore</button>
+
+                            <button class="py-1.5 px-3 rounded border-2 border-blue-500 text-blue-500">Get
+                                Started</button>
+
+                        </div>
+
                     </div>
-                    <div class="border-2 border-violet-500 ">
-                        <h1>Image</h1>
+
+                    <div class=" my-auto ">
+
+                        <img class="block mx-auto w-full"
+                            src="https://cdni.iconscout.com/illustration/premium/thumb/ecommerce-illustration-download-in-svg-png-gif-file-formats--add-to-cart-shopping-bag-e-commerce-pack-illustrations-3145686.png?f=webp"
+                            alt="">
+
                     </div>
+
                 </div>
+
+            </section>
+
+            <section class="bg-yellow-200 py-6">
+
+                <h2 class="text-center text-3xl font-bold my-6">Product Cards</h2>
+
+                <div class="grid grid-cols-4 border-2 border-red-500 w-[80%] mx-auto">
+
+                    <div class="border-2 border-blue-500 shadow">
+
+                        <img src="https://redtape.com/cdn/shop/files/RSO3475_1_jpg.jpg?v=1711718456" alt="">
+
+                        <div class="p-4">
+
+                            <p>RedTape</p>
+
+                            <h2 class="text-2xl font-bold">Sport Shoes</h2>
+
+                            <button class="mt-5 bg-violet-500 text-white px-3 py-1.5 rounded"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </section>
 
         </article>
 
     </main>
+
+    <footer>
+
+    </footer>
 
 </body>
 
