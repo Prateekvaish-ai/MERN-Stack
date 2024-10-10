@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,22 +21,22 @@
 
         <article>
 
-            <section class=" h-[60vh] ">
+            <section class="min-h-[60vh]">
 
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 w-[80%] mx-auto h-full">
 
-                <div class="grid lg:grid-cols-2 w-[80%] mx-auto h-full">
-
-                    <div class=" my-auto space-y-5 order-last lg:order-first text-center lg:text-left">
+                    <div class="my-auto space-y-5 order-last lg:order-first text-center lg:text-left">
 
                         <h1 class="text-3xl lg:text-6xl font-bold">Hero Section Title</h1>
 
-                        <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolorum
-                            aspernatur sapiente id dicta vitae quis laborum modi fugit odit.</p>
+                        <p class="text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
+                            repellendus, labore aliquam
+                            voluptatibus eius officia sunt? Est velit nesciunt perspiciatis?</p>
 
                         <div class="flex gap-4 justify-center lg:justify-start">
 
                             <button
-                                class="py-1.5 px-3 rounded bg-blue-500 hover:bg-blue-700 text-white">Explore</button>
+                                class="py-1.5 px-3 rounded border-2 border-blue-500 bg-blue-500 hover:bg-blue-700 text-white">Explore</button>
 
                             <button class="py-1.5 px-3 rounded border-2 border-blue-500 text-blue-500">Get
                                 Started</button>
@@ -44,7 +45,7 @@
 
                     </div>
 
-                    <div class=" my-auto ">
+                    <div class=" my-auto">
 
                         <img class="block mx-auto w-full"
                             src="https://cdni.iconscout.com/illustration/premium/thumb/ecommerce-illustration-download-in-svg-png-gif-file-formats--add-to-cart-shopping-bag-e-commerce-pack-illustrations-3145686.png?f=webp"
@@ -56,15 +57,16 @@
 
             </section>
 
-            <section class=" py-6">
+            <section class="py-6">
 
                 <h2 class="text-center text-3xl font-bold my-6">Product Cards</h2>
 
-                <div class="grid md:gride-cols-2 lg:gride-cols-3 xl:grid-cols-4  w-[80%] mx-auto gap-4">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-[80%] mx-auto gap-8">
 
-                    <div class="shadow ">
+                    <div class="shadow">
 
-                        <img class="w-full h-80 object-cover rounded" src="https://redtape.com/cdn/shop/files/RSO3475_1_jpg.jpg?v=1711718456" alt="">
+                        <img class="w-full h-80 object-cover"
+                            src="https://redtape.com/cdn/shop/files/RSO3475_1_jpg.jpg?v=1711718456" alt="">
 
                         <div class="p-4">
 
@@ -72,57 +74,62 @@
 
                             <h2 class="text-2xl font-bold">Sport Shoes</h2>
 
-                            <button class="mt-5 bg-violet-500 text-white px-3 py-1.5 rounded"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+                            <button class="mt-5 bg-violet-500 text-white px-3 py-1.5 rounded"><i
+                                    class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
 
                         </div>
 
                     </div>
 
-                    <div class=" shadow">
+                    <div class="shadow">
 
-                        <img class="w-full h-80 object-cover rounded" src="https://www.tracerindia.com/cdn/shop/files/01_1_699e3a3a-ba7c-439e-b258-6e57413834be.jpg?v=1688469238" alt="">
+                        <img class="w-full h-80 object-cover object-bottom"
+                            src="https://img0.junaroad.com/uiproducts/20230230/zoom_0-1693242070.jpg" alt="">
 
                         <div class="p-4">
 
-                            <p>Sparx</p>
+                            <p>RedTape</p>
 
                             <h2 class="text-2xl font-bold">Sport Shoes</h2>
 
-                            <button class="mt-5 bg-violet-500 text-white px-3 py-1.5 rounded"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+                            <button class="mt-5 bg-violet-500 text-white px-3 py-1.5 rounded"> <i
+                                    class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+                        
+                                </div>
+
+                    </div>
+
+                    <div class="shadow">
+
+                        <img src="https://redtape.com/cdn/shop/files/RSO3475_1_jpg.jpg?v=1711718456" alt="">
+
+                        <div class="p-4">
+
+                            <p>RedTape</p>
+
+                            <h2 class="text-2xl font-bold">Sport Shoes</h2>
+
+                            <button class="mt-5 bg-violet-500 text-white px-3 py-1.5 rounded"> <i
+                                    class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
 
                         </div>
 
                     </div>
 
-                    <div class=" shadow">
+                    <div class="shadow">
 
-                        <img class="w-full h-80 object-cover rounded" src="https://5.imimg.com/data5/SELLER/Default/2021/7/PG/UB/GY/8852934/-mg-0259.JPG" alt="">
-
-                        <div class="p-4">
-
-                            <p>Nike</p>
-
-                            <h2 class="text-2xl font-bold">Sport Shoes</h2>
-
-                            <button class="mt-5 bg-violet-500 text-white px-3 py-1.5 rounded"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
-
-                        </div>
-
-                    </div>
-
-                    <div class=" shadow">
-
-                        <img class="w-full h-80 object-cover rounded" src="https://5.imimg.com/data5/ANDROID/Default/2023/6/319940548/EJ/XL/NT/192043273/product-jpeg-500x500.jpg" alt="">
+                        <img src="https://redtape.com/cdn/shop/files/RSO3475_1_jpg.jpg?v=1711718456" alt="">
 
                         <div class="p-4">
 
-                            <p>Redchif</p>
+                            <p>RedTape</p>
 
                             <h2 class="text-2xl font-bold">Sport Shoes</h2>
 
-                            <button class="mt-5 bg-violet-500 text-white px-3 py-1.5 rounded"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
-
-                        </div>
+                            <button class="mt-5 bg-violet-500 text-white px-3 py-1.5 rounded"><i
+                                    class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+                        
+                                </div>
 
                     </div>
 
@@ -130,68 +137,64 @@
 
             </section>
 
-            <section class=" py-6 space-y-10">
+            <section class="py-6 space-y-10">
 
                 <h2 class="text-center my-10 font-bold text-3xl">Our Features</h2>
 
-                <div class="grid grid-cols-12 w-[80%] mx-auto gap-8">
-                       
-                    <div class="lg:col-span-4 col-span-12">
-                        
-                        <img class="w-full rounded" src="undraw_Traveling_yhxq.png" alt="">
+                <div class="grid grid-cols-12 gap-8 w-[80%] mx-auto">
+                    <div class="col-span-12 lg:col-span-4 ">
+                        <img class="w-full" src="undraw_Swing_jn5d.png" alt="">
                     </div>
-
                     <div class="col-span-12 text-center lg:text-left lg:col-span-8 space-y-5 my-auto">
-
                         <h3 class="font-bold text-3xl">Feature 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid alias atque dolor esse
+                            porro enim! Modi, aspernatur ratione quisquam cum a nam voluptatibus, dolore voluptate
+                            aperiam aut dicta commodi.</p>
 
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur harum fuga delectus similique sit. In, neque soluta quisquam magni, nostrum exercitationem eveniet nisi cupiditate dolorum tempora laborum. Voluptas, ex deserunt!</p>
-                    
-           
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio nulla veniam officia magni accusamus cum vitae nobis quisquam, tempora iure! Autem illo doloremque, dignissimos quia ea minima temporibus odit delectus!</p>
-           
-           <button class="p-3 rounded-lg bg-blue-500 text-white w-full lg:w-fit">Learn More</button>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, hic aspernatur! Iure
+                            accusantium facere officiis esse, vel excepturi obcaecati sint!</p>
+
+                        <button class="p-3 rounded-lg bg-blue-500 text-white w-full lg:w-fit">Learn More</button>
+
                     </div>
                 </div>
 
-                <div class="grid grid-cols-12 w-[80%] mx-auto gap-8">
-                       
-                    <div class="lg:col-span-4 col-span-12">
-                        
-                        <img class="w-full rounded " src="undraw_Traveling_yhxq.png" alt="">
-                    </div>
-
+                <div class="grid grid-cols-12 gap-8 w-[80%] mx-auto">
+                   
                     <div class="col-span-12 text-center lg:text-left lg:col-span-8 space-y-5 my-auto">
-
                         <h3 class="font-bold text-3xl">Feature 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid alias atque dolor esse
+                            porro enim! Modi, aspernatur ratione quisquam cum a nam voluptatibus, dolore voluptate
+                            aperiam aut dicta commodi.</p>
 
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur harum fuga delectus similique sit. In, neque soluta quisquam magni, nostrum exercitationem eveniet nisi cupiditate dolorum tempora laborum. Voluptas, ex deserunt!</p>
-                    
-           
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio nulla veniam officia magni accusamus cum vitae nobis quisquam, tempora iure! Autem illo doloremque, dignissimos quia ea minima temporibus odit delectus!</p>
-           
-           <button class="p-3 rounded-lg bg-blue-500 text-white w-full lg:w-fit">Learn More</button>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, hic aspernatur! Iure
+                            accusantium facere officiis esse, vel excepturi obcaecati sint!</p>
+
+                        <button class="p-3 rounded-lg bg-blue-500 text-white w-full lg:w-fit">Learn More</button>
+
+                    </div>
+                    <div class="col-span-12 lg:col-span-4 order-first lg:order-last">
+                        <img class="w-full" src="undraw_Swing_jn5d.png" alt="">
                     </div>
                 </div>
 
-                <div class="grid grid-cols-12 w-[80%] mx-auto gap-8">
-                       
-                    <div class="lg:col-span-4 col-span-12">
-                        
-                        <img class="w-full rounded" src="undraw_Traveling_yhxq.png" alt="">
+                <div class="grid grid-cols-12 gap-8 w-[80%] mx-auto">
+                    <div class="col-span-12 lg:col-span-4 ">
+                        <img class="w-full" src="undraw_Swing_jn5d.png" alt="">
                     </div>
-
                     <div class="col-span-12 text-center lg:text-left lg:col-span-8 space-y-5 my-auto">
-
                         <h3 class="font-bold text-3xl">Feature 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid alias atque dolor esse
+                            porro enim! Modi, aspernatur ratione quisquam cum a nam voluptatibus, dolore voluptate
+                            aperiam aut dicta commodi.</p>
 
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur harum fuga delectus similique sit. In, neque soluta quisquam magni, nostrum exercitationem eveniet nisi cupiditate dolorum tempora laborum. Voluptas, ex deserunt!</p>
-                    
-           
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio nulla veniam officia magni accusamus cum vitae nobis quisquam, tempora iure! Autem illo doloremque, dignissimos quia ea minima temporibus odit delectus!</p>
-           
-           <button class="p-3 rounded-lg bg-blue-500 text-white w-full lg:w-fit">Learn More</button>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, hic aspernatur! Iure
+                            accusantium facere officiis esse, vel excepturi obcaecati sint!</p>
+
+                        <button class="p-3 rounded-lg bg-blue-500 text-white w-full lg:w-fit">Learn More</button>
+
                     </div>
+
                 </div>
 
             </section>
@@ -200,7 +203,39 @@
 
     </main>
 
-    <footer>
+    <footer class="bg-gray-300 py-6 ">
+
+        <div class="grid grid-cols-12 w-[80%] mx-auto gap-6 border-blue-500">
+
+            <div class="col-span-12 lg:col-span-6 space-y-3 ">
+                        <h2 class="text-2xl font-bold">Website Title</h2>
+
+                        <p class="text-xl">All Rights Reserved &copy;2024</p>
+
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi doloribus veritatis vitae et accusantium ex, voluptatem amet distinctio incidunt eligendi?</p>
+
+            </div>
+
+            <div class="col-span-6 lg:col-span-3">
+
+                <h4 class="text-lg font-bold">Important Links</h4>
+
+                <a>Link 1</a>
+                <a>Link 2</a>
+                <a>Link 3</a>
+                <a>Link 4</a>
+            </div>
+
+            <div class="grid-cols-3">
+                <h4 class="text-lg font-bold">Social Links</h4>
+
+                <a class="block" href="#"><i class="fa-brands fa-facebook"></i>&nbsp;Facebook</a>
+                <a class="block" href="#"><i class="fa-brands fa-x-twitter"></i>&nbsp;Twitter</a>
+                <a class="block" href="#"><i class="fa-brands fa-linkedin"></i>&nbsp;LinkedIn</a>
+                <a class="block" href="#"><i class="fa-brands fa-github"></i>&nbsp;Github</a>
+
+            </div>
+        </div>
 
     </footer>
 
